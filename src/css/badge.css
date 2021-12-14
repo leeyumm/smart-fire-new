@@ -1,0 +1,28 @@
+
+.xu-ellipse-border {
+    border-radius: 999px;
+}
+.xu-badge {
+    display: inline-block;
+    padding: 0.3em 0.6em;
+    font-size: 0.7em;
+    line-height: 1.3em;
+    height: 1.3em;
+    margin: 0 0.3em;
+}
+.xu-badge-success {
+    background-color: #67c23a;
+    color: #ffffff;
+}
+.xu-badge-error {
+    background-color: #f56c6c;
+    color: #ffffff;
+}
+.xu-badge-danger {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+.xu-badge-warning {
+    background-color: #e6a23c;
+    color: #ffffff;
+}

@@ -1,0 +1,68 @@
+
+.xu-box {
+    background-color: rgba(28, 62, 107, 0.8);
+    position: relative;
+    color: #dbd7d7;
+    border: #3a9fd3 1px solid;
+    box-sizing: border-box;
+}
+.xu-box::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    left: -5px;
+    top: -5px;
+    border-top: 1px solid #3a9fd3;
+    border-left: 1px solid #3a9fd3
+}
+.xu-box::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    right: -5px;
+    bottom: -5px;
+    border-right: 1px solid #3a9fd3;
+    border-bottom: 1px solid #3a9fd3
+}
+
+.xu-box-title {
+    font-size: 16px;
+    padding: 10px 10px;
+    border-bottom: 1px solid #192b5f;
+    position: relative;
+    color: #05bbca;
+}
+.xu-box-content {
+    padding: 10px;
+    position: relative;
+}
+.xu-box-foot {
+    padding:10px;
+    border-top: 1px solid #192b5f;
+    position: relative;
+}
+
+.xu-add-scrollBar {
+    overflow: auto;
+    /* -ms-scrollbar-face-color: #3869aa;IE滚动部分的颜色
+    -ms-scrollbar-track-color: #bbbbbb;IE滚动槽部分的颜色 */
+}
+
+/*webkit样式*/
+.xu-add-scrollBar::-webkit-scrollbar {/*滚动槽部分的样式*/
+    width: 4px;
+    border-radius: 1px;
+    background-color: transparent;
+}
+
+.xu-add-scrollBar::-webkit-scrollbar-thumb{/*滚动部分的样式*/
+    background-color: #33629e;
+    border-radius: 1px;
+}
+.xu-add-scrollBar::-webkit-scrollbar-thumb:hover {
+    background-color: #3869aa;
+}

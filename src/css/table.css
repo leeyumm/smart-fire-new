@@ -1,0 +1,65 @@
+
+.xu-table {
+    border-collapse: collapse;
+    font-size: 14px;
+    width: 100%;
+}
+.xu-table th {
+    border-top: 1px solid #ebeef5;
+    border-bottom: 1px solid #ebeef5;
+    text-align: start;
+    font-size: 14px;
+    padding: 8px 4px;
+    color: #41cac0;
+}
+.xu-table td {
+    border-bottom: 1px solid #ebeef5;
+    padding: 8px 4px;
+}
+
+/* 没有边框 */
+.xu-table-no-border td {
+    border: 0;
+}
+/* 固定每个格子的宽度 */
+.xu-table-fix-width th,
+.xu-table-fix-width td{
+    width:120px;
+    overflow: hidden;
+}
+/*5.1 带边框的表格样式*/
+.xu-table-border th, .xu-table-border td{
+    border: 1px solid #ebeef5;
+}
+/*5.2 居中表格*/
+.xu-table-center td, .xu-table-center th{
+    text-align: center;
+}
+/*5.3 小表格*/
+.xu-table-sm th, .xu-table-sm td {
+    padding: 4px 2px;
+}
+/*5.4 大表格*/
+.xu-table-lg th,.xu-table-lg td {
+    padding: 12px 6px;
+    /*font-size: 16px;*/
+}
+/*5.5 悬停表格*/
+.xu-table-hover tbody tr:hover {
+    background: rgba(30, 89, 124, 0.7) !important;
+}
+/*5.6 表格头部颜色*/
+.xu-thead-light tr{
+    color: #41cac0;
+}
+/*5.7 条纹*/
+.xu-table-strip tbody tr:nth-child(2n-1){
+    background-color: #ffffff;
+}
+.xu-table-strip tbody tr:nth-child(2n){
+    background-color: #f9f9f9;
+}
+
+
+
+

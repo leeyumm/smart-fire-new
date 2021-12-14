@@ -1,0 +1,67 @@
+.xu-btn {
+    /*调节按钮字体大小为父元素一样大*/
+    font-size: 1em;
+    padding: 0.12em 0.5em;
+    border-radius: 0.3em;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.xu-btn-lg {
+    font-size: 1.2em;
+    padding: 0.2em 0.8em;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+.xu-btn-sm {
+    /*调节按钮字体大小*/
+    font-size: 0.8em;
+    border: none;
+    padding: 0.1em 0.4em;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+
+
+
+.xu-btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+    border: 1px solid  #007bff;
+}
+.xu-btn-primary:hover{
+    background-color: #006fde;
+    border: 1px solid #006fde;
+}
+.xu-btn-info {
+    background-color: #17b2c8;
+    color: #ffffff;
+    border: 1px solid  #17b2c8;
+}
+.xu-btn-info:hover {
+    background-color: #178ca2;
+    border: 1px solid  #178ca2;
+}
+.xu-btn-success {
+    background-color: #28a745;
+    color: #ffffff;
+    border: 1px solid  #28a745;
+}
+.xu-btn-success:hover{
+    background-color: #268d43;
+    border: 1px solid #268d43;
+}
+.xu-btn-cancel {
+    background-color: #e8e9ea;
+    color: #4d5875;
+    border: 1px solid  #e8e9ea;
+}
+.xu-btn-cancel:hover{
+    background-color: #dadbdc;
+    border: 1px solid #dadbdc;
+}
+
+/* 禁用的button */
+.xu-invalid-btn {
+    opacity: 0.5;
+    pointer-events: none;
+}

@@ -1,0 +1,40 @@
+body,p,ul{
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* background-color: #f0f1f4; */
+    color: #5a5c69;
+    position: relative;
+}
+
+
+a,
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+}
+
+
+input:focus,
+button:focus,
+select:focus {
+    outline: 0;
+}
+
+
+button {
+    border: 0;
+}
+
+button,select {
+    cursor: pointer;
+}
